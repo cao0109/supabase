@@ -70,7 +70,7 @@ parameters:
     tags: ['database'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    default: '5432'
+    default: '5439'
     description: |
       Database port
 

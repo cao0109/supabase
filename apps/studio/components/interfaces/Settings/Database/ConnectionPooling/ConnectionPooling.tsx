@@ -248,7 +248,7 @@ export const ConnectionPooling = () => {
                               Pool mode is permanently set to Transaction on port 6543
                             </AlertTitle_Shadcn_>
                             <AlertDescription_Shadcn_>
-                              You can use Session mode by connecting to the pooler on port 5432
+                              You can use Session mode by connecting to the pooler on port 5439
                               instead
                             </AlertDescription_Shadcn_>
                           </Alert_Shadcn_>
@@ -265,7 +265,7 @@ export const ConnectionPooling = () => {
                                 </AlertTitle_Shadcn_>
                                 <AlertDescription_Shadcn_>
                                   This will take into effect once saved. You can use session mode by
-                                  pointing the pooler connection to use port 5432.
+                                  pointing the pooler connection to use port 5439.
                                 </AlertDescription_Shadcn_>
                               </Alert_Shadcn_>
                             </FormDescription_Shadcn_>
@@ -277,7 +277,7 @@ export const ConnectionPooling = () => {
                                 </AlertTitle_Shadcn_>
                                 <AlertDescription_Shadcn_>
                                   Session mode can be used concurrently with transaction mode by
-                                  using 5432 for session and 6543 for transaction. However, by
+                                  using 5439 for session and 6543 for transaction. However, by
                                   configuring the pooler mode to session here, you will not be able
                                   to use transaction mode at the same time.
                                 </AlertDescription_Shadcn_>

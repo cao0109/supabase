@@ -27,7 +27,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       A long-lived JWT with anonymous Postgres privileges.
 
@@ -36,7 +36,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       A long-lived JWT with Postgres privileges to bypass Row Level Security.
 
@@ -45,7 +45,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The ID of a Storage tenant.
 
@@ -54,7 +54,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       Region of your S3 bucket.
 
@@ -63,7 +63,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       Name of your S3 bucket.
 
@@ -72,7 +72,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The URL of your PostgREST server.
 
@@ -81,7 +81,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       A JWT Secret for the PostgREST database.
 
@@ -90,7 +90,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The URL of your Postgres database.
 
@@ -99,7 +99,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       Additional configuration parameters for Postgres startup.
 
@@ -108,7 +108,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The maximum file size allowed.
 
@@ -117,7 +117,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The storage provider.
 
@@ -126,7 +126,7 @@ parameters:
     tags: ['general'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The location storage when the "STORAGE_BACKEND" is set to "file".
 
@@ -135,7 +135,7 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       Operate across multiple tenants.
 
@@ -144,7 +144,7 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The URL of the multitenant Postgres database.
 
@@ -153,7 +153,7 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       TBD.
 
@@ -162,7 +162,7 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       The suffix for the PostgREST instance.
 
@@ -171,7 +171,7 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       Secure API key for administrative endpoints.
 
@@ -180,6 +180,6 @@ parameters:
     tags: ['multitenant'] # {string[]} These tags are useful for grouping parameters
     links: [] # {string[]} These tags are useful for grouping parameters
     required: true
-    # default: '5432'
+    # default: '5439'
     description: |
       An key for encryting/decrypting secrets.

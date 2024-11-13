@@ -1,6 +1,6 @@
 export default () => {
   process.env.SUPABASE_DB_HOST = process.env.SUPABASE_DB_HOST ?? 'localhost'
-  process.env.SUPABASE_DB_PORT = process.env.SUPABASE_DB_PORT ?? '5432'
+  process.env.SUPABASE_DB_PORT = process.env.SUPABASE_DB_PORT ?? '5439'
   process.env.SUPABASE_DB_PASS =
     process.env.SUPABASE_DB_PASS ?? 'your-super-secret-and-long-postgres-password'
   process.env.SUPABASE_GOTRUE = process.env.SUPABASE_GOTRUE ?? 'http://localhost:8000/auth/v1'

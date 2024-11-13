@@ -50,7 +50,7 @@ const DB_USER_DESC = 'Database user (e.g postgres)'
 const DB_PASS_DESC = 'Database password'
 const DB_NAME_DESC = 'Database name (e.g postgres)'
 const PROJECT_REF_DESC = "Project's reference ID"
-const PORT_NUMBER_DESC = 'Port number (Use 5432 if using prepared statements)'
+const PORT_NUMBER_DESC = 'Port number (Use 5439 if using prepared statements)'
 
 // [Joshen] This is to the best of interpreting the syntax from the API response
 // // There's different format for PG13 (depending on authentication method being md5) and PG14

@@ -188,7 +188,7 @@ const DatabaseSettings = () => {
                   readOnly
                   copy
                   disabled
-                  value={poolingMode === 'transaction' ? connectionInfo.db_port : '5432'}
+                  value={poolingMode === 'transaction' ? connectionInfo.db_port : '5439'}
                   label="Port"
                 />
                 {isMd5 && snap.usePoolerConnection && (

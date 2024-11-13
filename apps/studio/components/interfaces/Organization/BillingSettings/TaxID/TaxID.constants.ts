@@ -83,7 +83,7 @@ export const TAX_IDS: TaxId[] = [
     name: 'BR CNPJ',
     type: 'br_cnpj',
     country: 'Brazil',
-    placeholder: '01.234.456/5432-10',
+    placeholder: '01.234.456/5439-10',
     countryIso2: 'BR',
   },
   {

@@ -36,7 +36,7 @@ const handleGetAll = async (req: NextApiRequest, res: NextApiResponse) => {
     db_host: 'localhost',
     db_ip_addr_config: 'legacy' as const,
     db_name: 'postgres',
-    db_port: 5432,
+    db_port: 5439,
     db_user: 'postgres',
     inserted_at: '2021-08-02T06:40:40.646Z',
     jwt_secret:

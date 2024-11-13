@@ -144,7 +144,7 @@ export const UsePoolerCheckbox = ({
                                     to use transaction mode first.
                                   </p>
                                   <p>
-                                    You can then connect to session mode on port 5432 and
+                                    You can then connect to session mode on port 5439 and
                                     transaction mode on port 6543.
                                   </p>
                                 </div>

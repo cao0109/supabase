@@ -47,7 +47,7 @@ const ConnectTabContentNew = forwardRef<HTMLDivElement, ConnectContentTabProps>(
           })
         : { uri: '' }
     const connectionStringPoolerTransaction = connectionStringsPooler.uri
-    const connectionStringPoolerSession = connectionStringsPooler.uri.replace('6543', '5432')
+    const connectionStringPoolerSession = connectionStringsPooler.uri.replace('6543', '5439')
 
     const ContentFile = dynamic<ConnectContentTabProps>(
       () => import(`./content/${filePath}/content`),

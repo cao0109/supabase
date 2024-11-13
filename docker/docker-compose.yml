@@ -456,7 +456,7 @@ services:
       - /app/bin/migrate && /app/bin/supavisor eval "$$(cat /etc/pooler/pooler.exs)" && /app/bin/server
     restart: unless-stopped
     ports:
-      - ${POSTGRES_PORT}:5432
+      - ${POSTGRES_PORT}:5439
       - ${POOLER_PROXY_PORT_TRANSACTION}:6543
     environment:
       - PORT=4000

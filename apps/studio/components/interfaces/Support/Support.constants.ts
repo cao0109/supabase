@@ -130,7 +130,7 @@ export const IPV4_MIGRATION_STRINGS = [
   'ipv6',
   'supavisor',
   'pgbouncer',
-  '5432',
+  '5439',
   'ENETUNREACH',
   'ECONNREFUSED',
   'P1001',

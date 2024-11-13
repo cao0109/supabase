@@ -66,7 +66,7 @@ This mode is similar to connecting to your database directly. There is full supp
 ### Using session and transaction modes at the same time
  ${
    primaryConfig?.pool_mode === 'transaction'
-     ? 'You can use the session mode connection string (port 5432) and transaction mode connection string (port 6543) in your application.'
+     ? 'You can use the session mode connection string (port 5439) and transaction mode connection string (port 6543) in your application.'
      : 'To get the best of both worlds, as a starting point, we recommend using session mode just when you need support for prepared statements and transaction mode in other cases.'
  }
 `}
@@ -93,7 +93,7 @@ This mode is similar to connecting to your database directly. There is full supp
                   connection pooling settings
                 </span>
                 . After this, you can use transaction mode on port 6543 and session mode on port
-                5432.
+                5439.
               </AlertDescription_Shadcn_>
             </Alert_Shadcn_>
           </div>

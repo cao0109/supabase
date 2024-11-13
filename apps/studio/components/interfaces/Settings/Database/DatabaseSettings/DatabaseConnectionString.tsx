@@ -132,7 +132,7 @@ export const DatabaseConnectionString = ({ appearance }: DatabaseConnectionStrin
           portNumber: snap.usePoolerConnection
             ? poolingMode === 'transaction'
               ? poolingConfiguration?.db_port.toString()
-              : '5432'
+              : '5439'
             : connectionInfo.db_port.toString(),
         })
       : []
@@ -233,7 +233,7 @@ export const DatabaseConnectionString = ({ appearance }: DatabaseConnectionStrin
                 value={
                   poolingMode === 'transaction'
                     ? connectionStrings[selectedTab]
-                    : connectionStrings[selectedTab].replace('6543', '5432')
+                    : connectionStrings[selectedTab].replace('6543', '5439')
                 }
                 onCopy={() => handleCopy(selectedTab)}
               />
